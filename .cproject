@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.penfieldrobotics.criotools.projtype.debug.1595396412">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.penfieldrobotics.criotools.projtype.debug.1595396412" moduleId="org.eclipse.cdt.core.settings" name="cRIODebug">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/PracticeBotC++"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/PracticeBotC++/cRIODebug"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="PracticeBotC++" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="so" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.sharedLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.sharedLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="com.penfieldrobotics.criotools.projtype.debug.1595396412" name="cRIODebug" parent="com.penfieldrobotics.criotools.projtype.debug" postbuildStep="cmd /C &quot;${workspace_loc}/${ProjName}/vxworksaround.bat&quot;">
+					<folderInfo id="com.penfieldrobotics.criotools.projtype.debug.1595396412." name="/" resourcePath="">
+						<toolChain id="com.penfieldrobotics.criotools.projtype.debug.tools.358680066" name="Thunder cRIO Tools" nonInternalBuilderId="com.penfieldrobotics.criotools.crosstools.builder" superClass="com.penfieldrobotics.criotools.projtype.debug.tools">
+							<option id="com.penfieldrobotics.criotools.crosstools.prefix.1074595074" name="Prefix" superClass="com.penfieldrobotics.criotools.crosstools.prefix" value="powerpc-wrs-vxworks-" valueType="string"/>
+							<option id="com.penfieldrobotics.criotools.crosstools.path.479593457" name="Path" superClass="com.penfieldrobotics.criotools.crosstools.path" value="&quot;${WIND_BASE}/../../bin/&quot;" valueType="string"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="com.penfieldrobotics.criotools.crosstools.tgtplatform.1445070714" isAbstract="false" name="Thunder cRIO Tools Target Platform" superClass="com.penfieldrobotics.criotools.crosstools.tgtplatform"/>
+							<builder arguments="-f makefile" autoBuildTarget="all" buildPath="${workspace_loc:/PracticeBotC++}/cRIODebug" cleanBuildTarget="clean" command="mingw32-make" id="org.eclipse.cdt.build.core.internal.builder.315667879" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="org.eclipse.cdt.build.core.internal.builder"/>
+							<tool id="com.penfieldrobotics.criotools.crosstools.ccompiler.1127414079" name="Thunder cRIO Tools C Compiler" superClass="com.penfieldrobotics.criotools.crosstools.ccompiler">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1727159855" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1746686921" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.539857994" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="C:\eclipse\workspace\PracticeBotC++\include"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1321481845" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.penfieldrobotics.criotools.crosstools.cppcompiler.58194692" name="Thunder cRIO Tools C++ Compiler" superClass="com.penfieldrobotics.criotools.crosstools.cppcompiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.834616862" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.108997508" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.419450773" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="C:\eclipse\workspace\PracticeBotC++\include"/>
+									<listOptionValue builtIn="false" value="&quot;${WIND_BASE}/../include/WPILib&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.1126364575" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="CPU=PPC603"/>
+									<listOptionValue builtIn="false" value="TOOL_FAMILY=gnu"/>
+									<listOptionValue builtIn="false" value="TOOL=gnu"/>
+									<listOptionValue builtIn="false" value="_WRS_KERNEL"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.other.other.434703938" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -mcpu=603 -mstrict-align -mlongcall" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.902521599" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.penfieldrobotics.criotools.crosstools.partiallinker.79911066" name="Thunder cRIO Tools Partial Linker" superClass="com.penfieldrobotics.criotools.crosstools.partiallinker">
+								<option defaultValue="true" id="gnu.cpp.link.option.shared.936073298" name="Shared (-shared)" superClass="gnu.cpp.link.option.shared" value="false" valueType="boolean"/>
+								<option id="gnu.cpp.link.option.libs.564488252" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="wpilib"/>
+									<listOptionValue builtIn="false" value="supc++"/>
+									<listOptionValue builtIn="false" value="stdc++"/>
+									<listOptionValue builtIn="false" value="gcc"/>
+								</option>
+								<option id="gnu.cpp.link.option.paths.1281379518" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${WIND_BASE}/../lib&quot;"/>
+								</option>
+								<option id="gnu.cpp.link.option.other.1939820905" name="Other options (-Xlinker [option])" superClass="gnu.cpp.link.option.other" valueType="stringList">
+									<listOptionValue builtIn="false" value="-X"/>
+								</option>
+								<option id="gnu.cpp.link.option.flags.2124714526" name="Linker flags" superClass="gnu.cpp.link.option.flags" value=" -mcpu=603 -mstrict-align -mlongcall -static -r" valueType="string"/>
+								<option id="gnu.cpp.link.option.nostdlibs.554420701" name="No startup or default libs (-nostdlib)" superClass="gnu.cpp.link.option.nostdlibs" value="true" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.855221708" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="PracticeBotC++.com.penfieldrobotics.criotools.projtype.315069164" name="Shared Library" projectType="com.penfieldrobotics.criotools.projtype"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.penfieldrobotics.criotools.projtype.debug.1595396412;com.penfieldrobotics.criotools.projtype.debug.1595396412.;com.penfieldrobotics.criotools.crosstools.ccompiler.1127414079;cdt.managedbuild.tool.gnu.c.compiler.input.1321481845">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.penfieldrobotics.criotools.projtype.debug.1595396412;com.penfieldrobotics.criotools.projtype.debug.1595396412.;com.penfieldrobotics.criotools.crosstools.cppcompiler.58194692;cdt.managedbuild.tool.gnu.cpp.compiler.input.902521599">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="cRIODebug">
+			<resource resourceType="PROJECT" workspacePath="/PracticeBotC++"/>
+		</configuration>
+	</storageModule>
+</cproject>

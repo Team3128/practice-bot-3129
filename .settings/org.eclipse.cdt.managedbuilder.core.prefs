@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/com.penfieldrobotics.criotools.projtype.debug.1595396412/CPATH/delimiter=;
+environment/buildEnvironmentInclude/com.penfieldrobotics.criotools.projtype.debug.1595396412/CPATH/operation=remove
+environment/buildEnvironmentInclude/com.penfieldrobotics.criotools.projtype.debug.1595396412/CPLUS_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/com.penfieldrobotics.criotools.projtype.debug.1595396412/CPLUS_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/com.penfieldrobotics.criotools.projtype.debug.1595396412/C_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/com.penfieldrobotics.criotools.projtype.debug.1595396412/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/com.penfieldrobotics.criotools.projtype.debug.1595396412/append=true
+environment/buildEnvironmentInclude/com.penfieldrobotics.criotools.projtype.debug.1595396412/appendContributed=true
+environment/buildEnvironmentLibrary/com.penfieldrobotics.criotools.projtype.debug.1595396412/LIBRARY_PATH/delimiter=;
+environment/buildEnvironmentLibrary/com.penfieldrobotics.criotools.projtype.debug.1595396412/LIBRARY_PATH/operation=remove
+environment/buildEnvironmentLibrary/com.penfieldrobotics.criotools.projtype.debug.1595396412/append=true
+environment/buildEnvironmentLibrary/com.penfieldrobotics.criotools.projtype.debug.1595396412/appendContributed=true
